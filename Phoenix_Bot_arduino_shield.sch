@@ -1,0 +1,328 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_01x08_Female J?
+U 1 1 5A7E2A92
+P 4250 4150
+F 0 "J?" H 4250 4550 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 4250 3650 50  0000 C CNN
+F 2 "" H 4250 4150 50  0001 C CNN
+F 3 "" H 4250 4150 50  0001 C CNN
+	1    4250 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x08_Female J?
+U 1 1 5A7E2B80
+P 5250 4150
+F 0 "J?" H 5250 4550 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 5250 3650 50  0000 C CNN
+F 2 "" H 5250 4150 50  0001 C CNN
+F 3 "" H 5250 4150 50  0001 C CNN
+	1    5250 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x08_Female J?
+U 1 1 5A7E2BF3
+P 6200 4150
+F 0 "J?" H 6200 4550 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 6200 3650 50  0000 C CNN
+F 2 "" H 6200 4150 50  0001 C CNN
+F 3 "" H 6200 4150 50  0001 C CNN
+	1    6200 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_02x18_Top_Bottom J?
+U 1 1 5A7E2D1D
+P 6700 2900
+F 0 "J?" H 6750 3800 50  0000 C CNN
+F 1 "Conn_02x18_Top_Bottom" H 6750 1900 50  0000 C CNN
+F 2 "" H 6700 2900 50  0001 C CNN
+F 3 "" H 6700 2900 50  0001 C CNN
+	1    6700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x08_Female J?
+U 1 1 5A7E2D64
+P 5800 1850
+F 0 "J?" H 5800 2250 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 5800 1350 50  0000 C CNN
+F 2 "" H 5800 1850 50  0001 C CNN
+F 3 "" H 5800 1850 50  0001 C CNN
+	1    5800 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x08_Female J?
+U 1 1 5A7E2DAB
+P 4800 1850
+F 0 "J?" H 4800 2250 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 4800 1350 50  0000 C CNN
+F 2 "" H 4800 1850 50  0001 C CNN
+F 3 "" H 4800 1850 50  0001 C CNN
+	1    4800 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x10_Female J?
+U 1 1 5A7E2E40
+P 3700 1850
+F 0 "J?" H 3700 2350 50  0000 C CNN
+F 1 "Conn_01x10_Female" H 3700 1250 50  0000 C CNN
+F 2 "" H 3700 1850 50  0001 C CNN
+F 3 "" H 3700 1850 50  0001 C CNN
+	1    3700 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x06_Male J?
+U 1 1 5A7E2F7A
+P 1300 5000
+F 0 "J?" H 1300 5300 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1300 4600 50  0000 C CNN
+F 2 "" H 1300 5000 50  0001 C CNN
+F 3 "" H 1300 5000 50  0001 C CNN
+	1    1300 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_GDS Q?
+U 1 1 5A7E2FD9
+P 1000 6050
+F 0 "Q?" H 1200 6100 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 1200 6000 50  0000 L CNN
+F 2 "" H 1200 6150 50  0001 C CNN
+F 3 "" H 1000 6050 50  0001 C CNN
+	1    1000 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 6250 1100 6450
+$Comp
+L GND #PWR?
+U 1 1 5A7E3068
+P 1100 6400
+F 0 "#PWR?" H 1100 6150 50  0001 C CNN
+F 1 "GND" H 1100 6250 50  0000 C CNN
+F 2 "" H 1100 6400 50  0001 C CNN
+F 3 "" H 1100 6400 50  0001 C CNN
+	1    1100 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDS Q?
+U 1 1 5A7E31AD
+P 2050 6050
+F 0 "Q?" H 2250 6100 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 2250 6000 50  0000 L CNN
+F 2 "" H 2250 6150 50  0001 C CNN
+F 3 "" H 2050 6050 50  0001 C CNN
+	1    2050 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 5200 1100 5300
+Wire Wire Line
+	1200 5200 1200 5300
+Wire Wire Line
+	1300 5200 1300 5300
+Wire Wire Line
+	1400 5200 1400 5300
+Wire Wire Line
+	1500 5200 1500 5300
+Wire Wire Line
+	1000 5200 1000 5300
+Wire Wire Line
+	1100 5850 1100 5750
+Text Label 1100 5750 0    60   ~ 0
+6
+Text Label 1000 5300 0    60   ~ 0
+2
+Text Label 1100 5300 0    60   ~ 0
+2
+Wire Wire Line
+	2150 5800 2150 5850
+Text Label 2150 5800 0    60   ~ 0
+5
+Wire Wire Line
+	2150 6250 2150 6450
+$Comp
+L GND #PWR?
+U 1 1 5A7E3760
+P 2150 6450
+F 0 "#PWR?" H 2150 6200 50  0001 C CNN
+F 1 "GND" H 2150 6300 50  0000 C CNN
+F 2 "" H 2150 6450 50  0001 C CNN
+F 3 "" H 2150 6450 50  0001 C CNN
+	1    2150 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDS Q?
+U 1 1 5A7E3788
+P 3050 6100
+F 0 "Q?" H 3250 6150 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 3250 6050 50  0000 L CNN
+F 2 "" H 3250 6200 50  0001 C CNN
+F 3 "" H 3050 6100 50  0001 C CNN
+	1    3050 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6300 3150 6500
+$Comp
+L GND #PWR?
+U 1 1 5A7E37E5
+P 3150 6500
+F 0 "#PWR?" H 3150 6250 50  0001 C CNN
+F 1 "GND" H 3150 6350 50  0000 C CNN
+F 2 "" H 3150 6500 50  0001 C CNN
+F 3 "" H 3150 6500 50  0001 C CNN
+	1    3150 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 5900 3150 5800
+Text Label 3150 5800 0    60   ~ 0
+4
+Text Label 1200 5300 0    60   ~ 0
+2
+$Comp
+L Q_NMOS_GDS Q?
+U 1 1 5A7E386C
+P 1000 7100
+F 0 "Q?" H 1200 7150 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 1200 7050 50  0000 L CNN
+F 2 "" H 1200 7200 50  0001 C CNN
+F 3 "" H 1000 7100 50  0001 C CNN
+	1    1000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDS Q?
+U 1 1 5A7E389F
+P 2000 7150
+F 0 "Q?" H 2200 7200 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 2200 7100 50  0000 L CNN
+F 2 "" H 2200 7250 50  0001 C CNN
+F 3 "" H 2000 7150 50  0001 C CNN
+	1    2000 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDS Q?
+U 1 1 5A7E38DC
+P 3050 7200
+F 0 "Q?" H 3250 7250 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 3250 7150 50  0000 L CNN
+F 2 "" H 3250 7300 50  0001 C CNN
+F 3 "" H 3050 7200 50  0001 C CNN
+	1    3050 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 7400 3150 7550
+Wire Wire Line
+	2100 7350 2100 7500
+Wire Wire Line
+	1100 7300 1100 7500
+$Comp
+L GND #PWR?
+U 1 1 5A7E3977
+P 1100 7500
+F 0 "#PWR?" H 1100 7250 50  0001 C CNN
+F 1 "GND" H 1100 7350 50  0000 C CNN
+F 2 "" H 1100 7500 50  0001 C CNN
+F 3 "" H 1100 7500 50  0001 C CNN
+	1    1100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A7E39A7
+P 2100 7500
+F 0 "#PWR?" H 2100 7250 50  0001 C CNN
+F 1 "GND" H 2100 7350 50  0000 C CNN
+F 2 "" H 2100 7500 50  0001 C CNN
+F 3 "" H 2100 7500 50  0001 C CNN
+	1    2100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A7E39D7
+P 3150 7550
+F 0 "#PWR?" H 3150 7300 50  0001 C CNN
+F 1 "GND" H 3150 7400 50  0000 C CNN
+F 2 "" H 3150 7550 50  0001 C CNN
+F 3 "" H 3150 7550 50  0001 C CNN
+	1    3150 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 7000 3150 6900
+Wire Wire Line
+	2100 6950 2100 6850
+Wire Wire Line
+	1100 6900 1100 6800
+Text Label 1100 6800 0    60   ~ 0
+3
+Text Label 2100 6850 0    60   ~ 0
+2
+Text Label 3150 6900 0    60   ~ 0
+1
+Text Label 1300 5300 0    60   ~ 0
+2
+Text Label 1400 5300 0    60   ~ 0
+2
+Text Label 1500 5300 0    60   ~ 0
+2
+$EndSCHEMATC
