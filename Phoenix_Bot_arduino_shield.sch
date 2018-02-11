@@ -973,17 +973,6 @@ Servo_5
 Text Label 1750 3100 0    60   ~ 0
 Servo_6
 $Comp
-L Conn_02x03_Top_Bottom J?
-U 1 1 5A7FF8F4
-P 5950 2350
-F 0 "J?" H 6000 2550 50  0001 C CNN
-F 1 "ICSP" H 6000 2150 50  0000 C CNN
-F 2 "" H 5950 2350 50  0001 C CNN
-F 3 "" H 5950 2350 50  0001 C CNN
-	1    5950 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR?
 U 1 1 5A7FF942
 P 3350 3550
@@ -1482,16 +1471,6 @@ Wire Wire Line
 	4800 1450 4800 1500
 Wire Wire Line
 	4900 1450 4900 1500
-Wire Wire Line
-	4900 1450 4900 1500
-Wire Wire Line
-	4800 1450 4800 1500
-Wire Wire Line
-	4700 1450 4700 1500
-Wire Wire Line
-	4600 1450 4600 1500
-Wire Wire Line
-	4500 1450 4500 1500
 Text Label 4900 1500 3    60   ~ 0
 Encoder_1
 Text Label 4800 1500 3    60   ~ 0
@@ -1506,6 +1485,48 @@ Text Label 4400 1500 3    60   ~ 0
 Encoder_6
 Text Label 4900 1500 3    60   ~ 0
 Encoder_1
+$Comp
+L Conn_02x03_Odd_Even J?
+U 1 1 5A80D857
+P 5800 2350
+F 0 "J?" H 5850 2550 50  0001 C CNN
+F 1 "ICSP" H 5850 2150 50  0000 C CNN
+F 2 "" H 5800 2350 50  0001 C CNN
+F 3 "" H 5800 2350 50  0001 C CNN
+	1    5800 2350
+	1    0    0    -1  
+$EndComp
+Text Label 5550 2250 2    60   ~ 0
+MISO
 Wire Wire Line
-	4400 1450 4400 1500
+	5600 2250 5550 2250
+Wire Wire Line
+	5600 2350 5550 2350
+Wire Wire Line
+	5600 2450 5550 2450
+Wire Wire Line
+	6100 2250 6200 2250
+Wire Wire Line
+	6100 2350 6200 2350
+Wire Wire Line
+	6100 2450 6200 2450
+Text Label 5550 2350 2    60   ~ 0
+SCK
+Text Label 5550 2450 2    60   ~ 0
+Reset
+Text Label 6200 2250 0    60   ~ 0
+Vcc
+Text Label 6200 2350 0    60   ~ 0
+MOSI
+$Comp
+L GND #PWR?
+U 1 1 5A80E061
+P 6200 2450
+F 0 "#PWR?" H 6200 2200 50  0001 C CNN
+F 1 "GND" H 6200 2300 50  0000 C CNN
+F 2 "" H 6200 2450 50  0001 C CNN
+F 3 "" H 6200 2450 50  0001 C CNN
+	1    6200 2450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
