@@ -31,7 +31,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Phoenix_Bot_arduino_shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -863,7 +862,7 @@ U 1 1 5A7FF501
 P 3850 1450
 F 0 "J14" H 3850 1950 50  0001 C CNN
 F 1 "PWN(10-5)" H 3850 850 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 3850 1450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 3850 1450 50  0001 C CNN
 F 3 "" H 3850 1450 50  0001 C CNN
 	1    3850 1450
 	0    1    1    0   
