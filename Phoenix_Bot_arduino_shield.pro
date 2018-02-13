@@ -1,9 +1,11 @@
-update=Monday, February 12, 2018 'PMt' 03:26:58 PM
+update=Monday, February 12, 2018 'PMt' 05:48:52 PM
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -43,11 +45,11 @@ LibName32=valves
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Phoenix_Bot_arduino_shield_net6.net
-PadDrill=0.762
-PadDrillOvalY=0.762
-PadSizeH=1.524
-PadSizeV=1.524
+LastNetListRead=Phoenix_Bot_arduino_shield_net2.net
+PadDrill=1
+PadDrillOvalY=1
+PadSizeH=1.7
+PadSizeV=1.7
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
@@ -59,5 +61,3 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
-[general]
-version=1
